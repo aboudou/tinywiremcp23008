@@ -20,7 +20,10 @@ ATtiny85 frequency and I<sup>2</sup>C bus mode
 --------------------------------------------
 
 TinyWireMCP23008 was tested (and works) with a 8 MHz ATtiny85 and I<sup>2</sup>C standard bus mode and I<sup>2</sup>C fast bus mode. 
+
 TinyWireMCP23008 was not tested with ATtiny85 other frequencie, but should work (I can't guarantee that fast bus mode will work with a 1 MHz ATtiny85).
+
+TinyWireMCP23008 should work with other ATtiny microcontrollers.
 
 If your ATtiny does not run at 8 MHz, you have to adapt the following line into USI_TWI_Master.cpp:
 
